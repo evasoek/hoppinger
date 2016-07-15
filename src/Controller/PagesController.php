@@ -62,23 +62,4 @@ class PagesController extends AppController
             throw new NotFoundException();
         }
     }
-    
-    /**
-	 * Retrieve IMDB movie
-	 *
-	 * @param int id. ID of movie to retrieve
-	 * @return string movie
-	 */
-	public function home() {
-		$curl = curl_init();
-		curl_setopt($curl, CURLOPT_URL, "http://www.omdbapi.com/?i=tt2277860&plot=full&r=json");
-		curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
-		$result = curl_exec($curl);
-		curl_close($curl);
-		
-		$data = json_decode($result, true);
-		
-		$this->set($data);
-		var_dump($result);
-	}
 }

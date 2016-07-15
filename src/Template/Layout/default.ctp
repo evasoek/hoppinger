@@ -55,6 +55,7 @@ $cakeDescription = 'Hoppinger IMDB';
 					<li><a href="http://localhost/hoppinger/pages/opdracht">Opdracht</a></li>
 					<li><a href="http://localhost/hoppinger/pages/code">Code</a></li>
 					<li><a href="http://localhost/hoppinger/pages/proces">Proces</a></li>
+					<li><a href="https://github.com/evasoek/hoppinger">Github</a></li>
 				</ul>
 			</div><!--/.nav-collapse -->
 		</div>

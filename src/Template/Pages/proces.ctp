@@ -11,5 +11,9 @@
 		<li>Opzetten CakePHP</li>
 		<li>Bootstrap integreren</li>
 		<li>Benodigde pagina's aanmaken</li>
+		<li>Model aanmaken</li>
+		<li>Controller aanmaken</li>
+		<li>View aanmaken</li>
+		<li></li>
 	</ol>
 </p>
