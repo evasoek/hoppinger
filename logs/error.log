@@ -251,3 +251,125 @@ Stack Trace:
 #16 {main}
 
 
+2016-07-15 10:14:52 Error: [Cake\Routing\Exception\MissingControllerException] Controller class <preClass= could not be found.
+Exception Attributes: array (
+  'class' => '<preClass=',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /hoppinger/%3Cpre%20class=
+Referer URL: http://localhost/hoppinger/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/hoppinger/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-07-15 10:14:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class <preClass= could not be found.
+Exception Attributes: array (
+  'class' => '<preClass=',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /hoppinger/%3Cpre%20class=
+Referer URL: http://localhost/hoppinger/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/hoppinger/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-07-15 10:15:19 Error: [Cake\Datasource\Exception\InvalidPrimaryKeyException] Record not found in table "movies" with primary key [NULL]
+Request URL: /hoppinger/movies/view
+Referer URL: http://localhost/hoppinger/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/hoppinger/src/Controller/MoviesController.php(57): Cake\ORM\Table->get(NULL)
+#1 [internal function]: App\Controller\MoviesController->view()
+#2 /Applications/MAMP/htdocs/hoppinger/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#3 /Applications/MAMP/htdocs/hoppinger/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 /Applications/MAMP/htdocs/hoppinger/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\MoviesController))
+#5 /Applications/MAMP/htdocs/hoppinger/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-07-15 10:15:41 Error: [Cake\Datasource\Exception\InvalidPrimaryKeyException] Record not found in table "movies" with primary key [NULL]
+Request URL: /hoppinger/movies/view
+Referer URL: http://localhost/hoppinger/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/hoppinger/src/Controller/MoviesController.php(57): Cake\ORM\Table->get(NULL)
+#1 [internal function]: App\Controller\MoviesController->view()
+#2 /Applications/MAMP/htdocs/hoppinger/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#3 /Applications/MAMP/htdocs/hoppinger/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 /Applications/MAMP/htdocs/hoppinger/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\MoviesController))
+#5 /Applications/MAMP/htdocs/hoppinger/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-07-15 10:21:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class <preClass= could not be found.
+Exception Attributes: array (
+  'class' => '<preClass=',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /hoppinger/%3Cpre%20class=
+Referer URL: http://localhost/hoppinger/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/hoppinger/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-07-15 10:34:00 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "movies"
+Request URL: /hoppinger/movies/view/...
+Referer URL: http://localhost/hoppinger/movies/view/tt2277860
+Stack Trace:
+#0 /Applications/MAMP/htdocs/hoppinger/vendor/cakephp/cakephp/src/ORM/Table.php(1202): Cake\ORM\Query->firstOrFail()
+#1 /Applications/MAMP/htdocs/hoppinger/src/Controller/MoviesController.php(57): Cake\ORM\Table->get('...')
+#2 [internal function]: App\Controller\MoviesController->view('...')
+#3 /Applications/MAMP/htdocs/hoppinger/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#4 /Applications/MAMP/htdocs/hoppinger/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 /Applications/MAMP/htdocs/hoppinger/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\MoviesController))
+#6 /Applications/MAMP/htdocs/hoppinger/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-07-15 10:34:19 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "movies"
+Request URL: /hoppinger/movies/view/...
+Referer URL: http://localhost/hoppinger/movies/view/tt2277860
+Stack Trace:
+#0 /Applications/MAMP/htdocs/hoppinger/vendor/cakephp/cakephp/src/ORM/Table.php(1202): Cake\ORM\Query->firstOrFail()
+#1 /Applications/MAMP/htdocs/hoppinger/src/Controller/MoviesController.php(57): Cake\ORM\Table->get('...')
+#2 [internal function]: App\Controller\MoviesController->view('...')
+#3 /Applications/MAMP/htdocs/hoppinger/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#4 /Applications/MAMP/htdocs/hoppinger/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 /Applications/MAMP/htdocs/hoppinger/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\MoviesController))
+#6 /Applications/MAMP/htdocs/hoppinger/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-07-15 10:36:27 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /hoppinger/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/hoppinger/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-07-15 10:37:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /hoppinger/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/hoppinger/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
