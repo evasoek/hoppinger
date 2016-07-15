@@ -1,0 +1,75 @@
+2016-07-12 10:59:26 Error: [Cake\Network\Exception\NotFoundException] Please replace src/Template/Pages/home.ctp with your own version.
+Request URL: /hoppinger/
+Referer URL: http://localhost/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/hoppinger/vendor/cakephp/cakephp/src/View/View.php(995): include()
+#1 /Applications/MAMP/htdocs/hoppinger/vendor/cakephp/cakephp/src/View/View.php(955): Cake\View\View->_evaluate('/Applications/M...', Array)
+#2 /Applications/MAMP/htdocs/hoppinger/vendor/cakephp/cakephp/src/View/View.php(587): Cake\View\View->_render('/Applications/M...')
+#3 /Applications/MAMP/htdocs/hoppinger/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render('home', NULL)
+#4 /Applications/MAMP/htdocs/hoppinger/src/Controller/PagesController.php(57): Cake\Controller\Controller->render('home')
+#5 [internal function]: App\Controller\PagesController->display('home')
+#6 /Applications/MAMP/htdocs/hoppinger/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#7 /Applications/MAMP/htdocs/hoppinger/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#8 /Applications/MAMP/htdocs/hoppinger/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#9 /Applications/MAMP/htdocs/hoppinger/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2016-07-12 11:01:04 Error: [Cake\Network\Exception\NotFoundException] Please replace src/Template/Pages/home.ctp with your own version.
+Request URL: /hoppinger/
+Referer URL: http://localhost/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/hoppinger/vendor/cakephp/cakephp/src/View/View.php(995): include()
+#1 /Applications/MAMP/htdocs/hoppinger/vendor/cakephp/cakephp/src/View/View.php(955): Cake\View\View->_evaluate('/Applications/M...', Array)
+#2 /Applications/MAMP/htdocs/hoppinger/vendor/cakephp/cakephp/src/View/View.php(587): Cake\View\View->_render('/Applications/M...')
+#3 /Applications/MAMP/htdocs/hoppinger/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render('home', NULL)
+#4 /Applications/MAMP/htdocs/hoppinger/src/Controller/PagesController.php(57): Cake\Controller\Controller->render('home')
+#5 [internal function]: App\Controller\PagesController->display('home')
+#6 /Applications/MAMP/htdocs/hoppinger/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#7 /Applications/MAMP/htdocs/hoppinger/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#8 /Applications/MAMP/htdocs/hoppinger/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#9 /Applications/MAMP/htdocs/hoppinger/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2016-07-12 11:01:06 Error: [Cake\Network\Exception\NotFoundException] Please replace src/Template/Pages/home.ctp with your own version.
+Request URL: /hoppinger/
+Referer URL: http://localhost/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/hoppinger/vendor/cakephp/cakephp/src/View/View.php(995): include()
+#1 /Applications/MAMP/htdocs/hoppinger/vendor/cakephp/cakephp/src/View/View.php(955): Cake\View\View->_evaluate('/Applications/M...', Array)
+#2 /Applications/MAMP/htdocs/hoppinger/vendor/cakephp/cakephp/src/View/View.php(587): Cake\View\View->_render('/Applications/M...')
+#3 /Applications/MAMP/htdocs/hoppinger/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render('home', NULL)
+#4 /Applications/MAMP/htdocs/hoppinger/src/Controller/PagesController.php(57): Cake\Controller\Controller->render('home')
+#5 [internal function]: App\Controller\PagesController->display('home')
+#6 /Applications/MAMP/htdocs/hoppinger/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#7 /Applications/MAMP/htdocs/hoppinger/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#8 /Applications/MAMP/htdocs/hoppinger/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#9 /Applications/MAMP/htdocs/hoppinger/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2016-07-12 11:04:46 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Request URL: /hoppinger/css/style.css
+Referer URL: http://localhost/hoppinger/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/hoppinger/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-07-12 11:08:37 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Request URL: /hoppinger/css/style.css
+Referer URL: http://localhost/hoppinger/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/hoppinger/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-07-12 11:10:07 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Request URL: /hoppinger/css/style.css
+Referer URL: http://localhost/hoppinger/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/hoppinger/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
