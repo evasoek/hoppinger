@@ -13,7 +13,7 @@
 				<b>Runtime: </b> <?= $movie->runtime ?><br>
 				<b>Genre: </b> <?= $movie->genre ?>
 			</p>
-			<p><?= $this->Html->link($movie->title, ['action' => 'view', $movie->imdbid], ['class' => 'btn btn-primary']) ?></p>
+			<p><?= $this->Html->link($movie->title, ['action' => 'view', $movie->id], ['class' => 'btn btn-primary']) ?></p>
 			</div>
 		</div>
 	</div>

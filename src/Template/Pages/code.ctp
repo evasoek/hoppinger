@@ -25,11 +25,10 @@
 		<li>/src/Controller/MoviesController.php</li>
 		<li>/src/Template/Movies/index.php</li>
 		<li>/src/Template/Movies/view.php</li>
-<!--
 		<li>/src//Model/Table/ReviewsTable.php</li>
 		<li>/src/Controller/ReviewsController.php</li>
 		<li>/src/Template/Reviews/index.php</li>
--->
+		<li>/src/Template/Reviews/add.php</li>
 	</ul>
 </p>
 <p>

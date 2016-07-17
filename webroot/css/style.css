@@ -8,6 +8,11 @@ body {
 	padding-bottom: 100px;
 }
 
+.media-list .media {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
 .media-object {
 	width: 65px;
 	height: 65px;
@@ -16,6 +21,18 @@ body {
 	color: #111;
 	text-align: center;
 }
+
+.media-list .media:last-of-type {
+	border: none;
+}
+
+form label {
+	margin: 0 5px;
+}
+
+	form label input[type="radio"] {
+		margin-right: 2px;
+	}
 
 footer {
 	position: absolute;

@@ -4,10 +4,9 @@
 	use Cake\ORM\Table;
 	
 	class MoviesTable extends Table {
-		public $primaryKey = 'imdbid';
-		
 	    public function initialize(array $config) {
 	        $this->addBehavior('Timestamp');
+	        $this->hasMany('Reviews', ['foreignKey' => 'movie_id']);
 	    }
 	}
 ?>
