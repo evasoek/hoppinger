@@ -33,6 +33,10 @@ form label {
 	form label input[type="radio"] {
 		margin-right: 2px;
 	}
+	
+form button[type="submit"] {
+	margin-top: 15px;
+}
 
 footer {
 	position: absolute;

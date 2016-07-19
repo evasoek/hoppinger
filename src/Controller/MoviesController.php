@@ -6,9 +6,6 @@
 	class MoviesController extends AppController {
 		/**
 		 * Retrieve IMDB movie
-		 *
-		 * @param int id. ID of movie to retrieve
-		 * @return string movie
 		 */
 		public function index() {
 			// curl
@@ -53,6 +50,11 @@
 			$this->set(compact('movies'));
 	    }
 	    
+	    /**
+		 * Retrieve IMDB movie view
+		 *
+		 * @param int id. ID of movie to retrieve
+		 */
 	    public function view($id = null) {
 		    // get movie
 	        $movie = $this->Movies->get($id, [
@@ -72,7 +74,7 @@
 			$rating_avg = array_sum($movie_ratings)/count($movie_ratings);
 			$this->set('review_avg', $rating_avg);
 	        
-	        // save review
+	        // save review on post
 	        if ($this->request->is('post')) {
 		        $moviesTable = TableRegistry::get('Movies');
 		        $review = $moviesTable->Reviews->newEntity();

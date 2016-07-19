@@ -34,9 +34,8 @@
 		<li>Review Views aanmaken</li>
 		<li>Review database table aanmaken</li>
 		<li>Koppelen reviews aan movie</li>
-		<li>aanmaken extended views</li>
-		<li></li>
-		<li></li>
-		<li></li>
+		<li>Ophalen reviews</li>
+		<li>Posten van reviews</li>
+		<li>Geven van score</li>
 	</ol>
 </p>

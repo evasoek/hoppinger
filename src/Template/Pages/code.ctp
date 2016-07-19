@@ -6,10 +6,10 @@
 	<h4>Static pages</h4>
 	<ul>
 		<li>/src/Template/Layout/default.ctp</li>
-		<li>/src/Template/Layout/Pages/code.ctp</li>
-		<li>/src/Template/Layout/Pages/home.ctp</li>
-		<li>/src/Template/Layout/Pages/opdracht.ctp</li>
-		<li>/src/Template/Layout/Pages/proces.ctp</li>
+		<li>/src/Template/Pages/code.ctp</li>
+		<li>/src/Template/Pages/home.ctp</li>
+		<li>/src/Template/Pages/opdracht.ctp</li>
+		<li>/src/Template/Pages/proces.ctp</li>
 	</ul>
 </p>
 <p>

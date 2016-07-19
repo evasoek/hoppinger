@@ -32,7 +32,6 @@ $cakeDescription = 'Hoppinger IMDB';
     <?= $this->Html->script('https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'); ?>
     <?= $this->Html->script('bootstrap'); ?>
     <?= $this->Html->script('npm'); ?>
-    <?= $this->Html->script('custom'); ?>
 
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
